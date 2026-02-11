@@ -1,0 +1,42 @@
+base model loaded
+LoRa model loaded
+index loaded: 1746 chunks
+rag object has been loaded
+prompt engineer loaded successfully
+embedding model loaded on: cpu
+RAG retrieved 3 chunks with scores: [0.7831368446350098, 0.7751567363739014, 0.7709559202194214]
+generating with LoRA model
+PROMPT:
+You are an expert in Verilog HDL programming.
+
+Follow the required output format strictly.
+Format: Provide only the SILVACO ATLAS commands, one per line. No explanations, no comments, no Verilog-style headers.
+
+Task:
+Reference Documentation:
+
+
+---
+
+Task: Write a SILVACO ATLAS command to define a mesh with spacing of 0.1 microns
+
+CODE:
+
+****************************************
+CODE:
+#mesh
+    #spacing=0.1 
+    $precision(2)
+    
+    .type("SILv")
+    .name('s')
+    .width($size -1) // width is size-1 for n points
+    
+    .depth(#npoints / (4 * ($size +3)))
+    .height(.x = "#y", .z="#w") 
+    
+    .nodes(
+        node("#i","#j","$k",$l,$m,"@d"@"e"@f"$g""@h@$p"$q "@r @$t @u "$o ""@s "@"b "c"))
+        
+        .node("@a".length="5").position("$i*$.6*$k
+

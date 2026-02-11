@@ -1,0 +1,17 @@
+{
+    "tier1": [
+    ],
+    "tier2": [
+      {
+        "input": "Complete the transient analysis command for a 10us simulation with 1ns timestep.\n\nTemplate: .TRAN _____ _____",
+        "output": ".TRAN 1n 10u"
+      },
+      {
+        "input": "Complete the NMOS transistor definition with W=5um, L=0.5um connected to drain=out, gate=in, source=GND, bulk=GND, model=nch.\n\nTemplate: M1 _____ _____ _____ _____ _____ W=_____ L=_____",
+        "output": "M1 out in GND GND nch W=5u L=0.5u"
+      }
+    ],
+    "tier3": [
+    ]
+  }
+  

@@ -1,0 +1,1 @@
+{"embedding_model": "BAAI/bge-small-en-v1.5", "chunk_size": 512, "chunk_overlap": 50, "num_chunks": 1746}

@@ -1,0 +1,6 @@
+./data
+project_data/
+.DS_Store
+data/
+silvaco_benchmark.json
+.vscode/
